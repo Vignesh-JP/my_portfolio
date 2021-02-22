@@ -1,0 +1,544 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="icon" href="{% static 'img/icon.png' %}">
+  <title>VigneshJP - Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/venobox/venobox.css' %}" rel="stylesheet">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- ======= Header/ Navbar ======= -->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">Vignesh JP</a>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="{%url 'index' %}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#achievements">Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Intro Section ======= -->
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static "img/landing.jpg" %}');">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">I'm Vignesh Parthiban</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Web-App Developer,Backend Developer,Poster Designer</span><strong class="text-slider"></strong></p>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <div class="about-img">
+                        <img src="{% static 'img/prof_pic.jpg' %}" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                      <div class="about-info">
+                        <p><span class="title-s">Name   : </span><span>Vignesh JP</span></p>
+                        <p><span class="title-s">Profile: </span><span>Full Stack developer</span></p>
+                        <p><span class="title-s">Email  : </span><span> vigneshjpparthiban@gmail.com</span></p>
+                        <p><span class="title-s">Phone  : </span><span>+91 9094068494</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>PYTHON</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>HTML & CSS3</span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>PHP</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVA</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      I'm Vignesh JP , a pursuing electrical graduate who has a strong passion towards Software Development.    
+                    </p>
+                    <p class="lead">
+                      Worked on multiple projects both software as well as hardware and lead my team to the path of success :)
+                    </p>
+                    <p class="lead">
+                        Here we go !!!
+                        <p align="right">
+                        <a href="https://drive.google.com/file/d/1i3JtsupXfXBW-gc9nsQfJOQqNyOH8jXT/view?usp=sharing">
+                          <button  class="button button-a button-big button-rouded">Resume</button>
+                        </a>
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="service" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <p class="subtitle-a">
+                <i>"Once your mind stretches to a  new level it never goes back to its original dimension."</i>
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-monitor"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Design</h2>
+                <p class="s-description text-center">
+                  Design of websites that are displayed on the internet by creating user experience aspects and focusing not only for desktops but also for mobile and tablets view.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-code-working"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Development</h2>
+                <p class="s-description text-center">
+                  Building and maintenance of websites that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-camera"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Photoshop</h2>
+                <p class="s-description text-center">
+                  Photo editing, image creation and graphic design that provides many image editing features for raster (pixel-based) images as well as vector graphics.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">APP Development</h2>
+                <p class="s-description text-center">
+                  Developed for mobile devices using frameworks like Flutter, Android Studio... Even Mobile user interface (UI) design is also essential in development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                
+                <span class="ico-circle"><i class="ion-ios-analytics"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Freelancing</h2>
+                <p class="s-description text-center">
+                  Approaching my way of development according to the clients wish and fulfilling all their requirements with attractive UX design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Poster Design</h2>
+                <p class="s-description text-center">
+                  Temporary promotion of an idea, product, or event including both textual and graphic elements, designed to be both eye-catching and informative.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="projects" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Projects
+              </h3>
+              <p class="subtitle-a">
+                <i>"Talent wins games, but teamwork and intelligence wins championships."</i>
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/voice.jpg' %}" data-gall="portfolioGallery" class="venobox">
+                <div class="work-img">
+                  <img src="{% static 'img/voice.jpg' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Voice Over</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Android app</span> / <span class="w-date">June 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/Vignesh-JP/Voice_Based_Form_Filling"> <span class="iconify" data-icon="ion-logo-github" data-inline="false"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/piggy.jpg' %}" data-gall="portfolioGallery" class="venobox">
+                <div class="work-img">
+                  <img src="{% static 'img/piggy.jpg' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Smart Piggy Bank</h2>
+                    
+                    <div class="w-more">
+                      <span class="w-ctegory">Hardware Toy</span> / <span class="w-date">Oct 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://drive.google.com/file/d/1sYD9C1klcbqBvOsJYAlwYQjkqEm08bmK/view"><span class="ion-play"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'img/alumni.jpg' %}" data-gall="portfolioGallery" class="venobox">
+                <div class="work-img">
+                  <img src="{% static 'img/alumni.jpg' %}" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Alumni Tracker</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Mobile App</span> / <span class="w-date">Current</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/Vignesh-JP/Alumni_tracker"><span class="iconify" data-icon="ion-logo-github" data-inline="false"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+
+    <!-- =======Achievement Section ======= -->
+    <section id="achievements" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Achievements
+              </h3>
+              <p class="subtitle-a">
+                <i>"Failure will never overtake me if my determination to succeed is strong enough."</i>
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://drive.google.com/file/d/1dsTRCxJ9Of3BIbihSR0fGzSGjm0plghd/view?usp=sharing"><img src="{% static 'img/circuit.jpg' %}" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">ENERGEEECE'19</a></h3>
+                  
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <a href="https://drive.google.com/file/d/1dsTRCxJ9Of3BIbihSR0fGzSGjm0plghd/view?usp=sharing"><h6 class="category">View</h6></a>
+                  </div>
+                </div>
+                
+                <p class="card-description">
+                  The Department of ECE and EEE in JNN Institute of Engineering organized a National Level Technical Symposium “ENERGEEECE 2K19” and I have won the technical event <B>CIRCUIT HEAVEN</B>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="#achievements"><img src="{% static 'img/papyrus-1.jpg' %}" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a href="">PAPYRUS 2K20</a></h3>
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <a href="#achievements"><h6 class="category">View</h6></a>
+                  </div>
+                </div>
+                
+                <p class="card-description">
+                  Presented a paper on my software project <B>Alumni Tracker</B> in the Departmental presentation of my R.M.K. Engineering College in the first week of March 2020 and won the first prize.
+                </p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://drive.google.com/file/d/1BIuJMWTitVN9gd6SpXAMcG-8GDFNdof8/view?usp=sharing"><img src="{% static 'img/work-3.jpg' %}" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a href="">SVH 2020</a></h3>
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <a href="https://drive.google.com/file/d/1BIuJMWTitVN9gd6SpXAMcG-8GDFNdof8/view?usp=sharing"><h6 class="category">View</h6></a>
+                  </div>
+                </div>
+                <p class="card-description">
+                  Our team participated in 36 hours of Live Virtual Hackathon of Sathyabama Institute developing <B>Voice based form filling App </B>during covid pandemic and secured 4th place of shortlisted 50 teams all over India.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Achievement Section -->
+    
+    <!-- ======= Contact Section ======= -->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url('{% static "img/overlay-bg.jpg" %}');">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Message
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="#" method="POST" role="form" class="php-email-form">
+                        {%csrf_token%}
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <img src="{% static 'img/download.jpg' %}" alt="" >
+                      <br>
+                      <br>
+                      <br>
+                      <ul class="list-ico">
+                        <li><span class="ion-ios-location"></span> Thirumalai Nagar, Kolathur, Chennai 99</li>
+                        <li><span class="ion-ios-telephone"></span> +91 9094068494</li>
+                        <li><span class="ion-email"></span> vigneshjpparthiban@gmail.com</li>
+                      </ul>
+                    </div>
+                    <br>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.linkedin.com/in/vignesh-jp/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/Vignesh-JP"><span class="ico-circle"><i class="iconify" data-icon="ion-logo-github" data-inline="false"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/vignesh.parthiban.391/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/VigneshJP7"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <div class="credits">
+              Designed and Developed by <a href="https://www.linkedin.com/in/vignesh-jp/">Vignesh JP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!--Vendor JS Files -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'vendor/counterup/jquery.counterup.min.js' %}"></script>
+  <script src="{% static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'vendor/venobox/venobox.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
