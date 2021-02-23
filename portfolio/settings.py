@@ -26,7 +26,7 @@ SECRET_KEY = '##uh2xvkrz3q*#z4o=o6xgjs5gi!ct3ar&qhmcee_9tk(y=2#='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True    
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://vignesh-portfolio.herokuapp.com/"]
 
 
 # Application definition
