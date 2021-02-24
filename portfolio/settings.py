@@ -26,7 +26,7 @@ SECRET_KEY = '##uh2xvkrz3q*#z4o=o6xgjs5gi!ct3ar&qhmcee_9tk(y=2#='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True    
 
-ALLOWED_HOSTS = ["https://vignesh-portfolio.herokuapp.com/"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -78,12 +78,21 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD' : '12345',
+        'HOST' : 'localhost'
+    }
+}
+"""DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'd4qbm0c14hbkst',
         'USER': 'itsdmfgdsnekaj',
         'PASSWORD' : '661dd4e911a11cc964a48d1c5dd2296b4424cd6963c5ea9a47916dbd2a42e598',
         'HOST' : 'ec2-3-231-194-96.compute-1.amazonaws.com'
     }
-}
+}"""
 
 
 # Password validation
